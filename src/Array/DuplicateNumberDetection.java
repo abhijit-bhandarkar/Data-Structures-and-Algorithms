@@ -1,3 +1,4 @@
+package Array;
 
 /**
 
@@ -32,10 +33,8 @@ public class DuplicateNumberDetection {
 	    }
 
 	    public static void main(String args[]) {
-	        int[] input = {2,1,3,4,5,5,6};
+	        int[] input = {2,1,3,4,5,6,6};
 	        DuplicateNumberDetection dd = new DuplicateNumberDetection();
 	        System.out.println(dd.findDuplicate(input));
 	    }
 	}
-
-	
